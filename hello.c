@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main(void) {
-  int apple = 9;
-  if (apple!=10) printf("りんごは10個ではありません");
-  return 0;
+  int apple;
+  scanf("%d", &apple);
+  if (apple > 10) printf("10より大きいです");
+  if (apple < 10) printf("10より小さいです。");
+  if (apple == 10) printf("10と等しいです。");
 }

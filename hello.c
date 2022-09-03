@@ -1,21 +1,11 @@
 #include <stdio.h>
 int main(void) {
-  int no;
-  scanf("%d", &no);
-
-  switch (no) {
-  case 1:
-    printf("ハリー");
-    break;
-  case 2:
-    printf("ロン");
-    break;
-  case 3:
-    printf("ハーマイオニー");
-    break;
-  
+  int i;
+  for (i = 0; i <= 10; i++) {
+    printf("%d", i);
   }
+  return 0;  
+}
 
 
   
-}

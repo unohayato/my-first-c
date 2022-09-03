@@ -1,15 +1,11 @@
 #include <stdio.h>
 int main(void) {
-  int year = 1;
-  double money = 1000000;
-  while (money < 100000000) {
-    year += 1;
-    money *= 1.05;
-  }
+  int i = 10;
 
-  printf("%d年目: %f円となり一億円を超えます", year, money);
+  do{
+    printf("do while 文");
+  } while (i < 11);
 
-  return 0;  
 }
 
 

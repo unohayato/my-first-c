@@ -1,9 +1,14 @@
 #include <stdio.h>
 int main(void) {
-  int apple;
-  scanf("%d", &apple);
-  if (apple == 10 )
-    printf("10と等しいです");
-  else 
-    printf("10と等しくないです");
+  int age;
+  scanf("%d", &age);
+
+  if (age <= 3) {
+    printf("0円です");
+  } else if (3 < age && age <= 20) {
+    printf("1000円です");
+  } else {
+    printf("2000円です");
+  }
+  
 }

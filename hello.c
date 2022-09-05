@@ -1,15 +1,17 @@
 #include <stdio.h>
 
-int hello (void);
+int calc(int price);
 int main(void) {
 
-  hello();
+  calc(300);
   return 0;
 }
 
-int hello (void) {
-  printf("ありがとう");
+int calc (int price) {
+  printf("%f", price * 1.1);
   return 0;
 }
+
+
 
   

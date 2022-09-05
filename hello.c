@@ -4,7 +4,7 @@ int calc(int price);
 int fruits(int orange, int apple);
 int main(void) {
 
-  fruits(2, 2);
+  printf("%d", fruits(2, 3));
   return 0;
 }
 
@@ -14,8 +14,8 @@ int calc (int price) {
 }
 
 int fruits(int orange, int apple) {
-  printf("%d", (orange * 200) + (apple * 2));
-  return 0;
+  int sum = orange + apple;
+  return sum;
 }
 
 

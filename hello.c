@@ -1,17 +1,14 @@
 #include <stdio.h>
 
-int apple = 10;
-
 
 int main(void) {
 
-  int array [5] = {0, 1, 2, 3, 4};
+  int array[] = {11, 12, 13, 14};
+  int i;
+  for (i = 0; i < 5; i++) {
+    printf("%d番目は%d\n", i, array[i]);
 
-  printf("%d", array[0]);
-  printf("%d", array[1]);
-  printf("%d", array[2]);
-  printf("%d", array[3]);
-  printf("%d", array[4]);
+  }
 
   
   return 0;

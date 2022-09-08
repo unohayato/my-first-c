@@ -1,10 +1,11 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 
 int main(void) {
 
-  char array[5] = {'J', 'H', 'O', 'N', '\0'};
-  printf("%s", array);
+  char str [] = "256";
+  int i = atoi(str);
+  printf("%d", i);
 
 
   

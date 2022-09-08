@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <string.h>
 
 int main(void) {
 
-  char str [] = "256";
-  int i = atoi(str);
-  printf("%d", i);
+  char str [10];
+  strcpy(str, "MIKE");
+  printf("%s", str);
 
 
   

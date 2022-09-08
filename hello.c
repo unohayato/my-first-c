@@ -3,10 +3,12 @@
 
 int main(void) {
 
-  char str1 [15] = "Star";
+  char str [15];
+  char str1 [] = "Star";
   char str2 [] = "Wars";
-  strcat(str1, str2);
-  printf("%s", str1);
+  int s = 4;
+  sprintf(str, "%s%s%d", str1, str2, s);
+  printf("%s", str);
 
 
 

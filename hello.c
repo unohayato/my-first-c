@@ -3,10 +3,12 @@
 
 int main(void) {
 
-  int *apple, orange;
-  apple = &orange;
-  printf("%p\n", apple);
-  printf("%p\n", &orange);
+  int *p, i;
+  i = 15;
+  p = &i;
+  *p = 10;
+  printf("%d\n", *p);
+  printf("%d\n", i);
 
 
 

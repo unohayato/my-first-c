@@ -4,7 +4,7 @@
 struct Student
 {
   int year;
-  char name;
+  char name[64];
   int weight;
   int height;
 };

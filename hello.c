@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-struct Student
+struct
 {
   int year;
   char name[64];

@@ -7,13 +7,12 @@ struct Student
   char name[64];
   int weight;
   int height;
-};
+}Tarou;
 
 
 
 int main (void) {
 
-  struct Student Tarou;
   Tarou.year = 3;
 
   printf("%d", Tarou.year);

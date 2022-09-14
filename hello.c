@@ -1,21 +1,20 @@
 #include <stdio.h>
 
 
-struct
-{
-  int year;
-  char name[64];
-  int weight;
-  int height;
-}Tarou;
-
+struct Fruits {
+  int apple;
+  int banana;
+  int orange;
+};
 
 
 int main (void) {
 
-  Tarou.year = 3;
+  struct Fruits store1 = {100, 200, 300};
+  printf("%d\n", store1.apple);
+  printf("%d\n", store1.banana);
+  printf("%d\n", store1.orange);
 
-  printf("%d", Tarou.year);
 
   return 0;
 }

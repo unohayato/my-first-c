@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 
-struct Test 
-{
-  int name[32];
+struct Test {
+  char name[32];
   int ja;
   int ma;
   int en;
@@ -19,6 +18,8 @@ struct Test student[3] = {
 
 
 int main (void) {
+  printf("%10s %10s %10s %10s\n", "名前", "国語", "算数", "英語");
+  
 
   return 0;
 };

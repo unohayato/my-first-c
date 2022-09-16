@@ -15,16 +15,25 @@ struct Test student[3] = {
 };
 
 
-
+void line(void);
 
 int main (void) {
   printf("%10s %10s %10s %10s\n", "名前", "国語", "算数", "英語");
+  line();
+
   
 
   return 0;
 };
 
 
-
+void line (void) {
+  int i;
+  for (i = 0; i < 50; i++) {
+    printf("-");
+  };
+  printf("\n");
+  return;
+};
 
   

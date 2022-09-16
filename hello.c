@@ -22,6 +22,7 @@ int main (void) {
   printf("%10s %10s %10s %10s\n", "名前", "国語", "算数", "英語");
   line();
   show();
+  line();
 
   
 

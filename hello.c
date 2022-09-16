@@ -16,10 +16,12 @@ struct Test student[3] = {
 
 
 void line(void);
+void show(void);
 
 int main (void) {
   printf("%10s %10s %10s %10s\n", "名前", "国語", "算数", "英語");
   line();
+  show();
 
   
 
@@ -34,6 +36,13 @@ void line (void) {
   };
   printf("\n");
   return;
+};
+
+void show (void) {
+  int i;
+  for (i = 0; i < 3; i++) {
+    printf("%10s %10d %10d %10d\n", student[i].name, student[i].ja, student[i].ma, student[i].en);
+  };
 };
 
   
